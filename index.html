@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/Principal.css">
+</head>
+<body>
+
+<div class="container">
+    <nav class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+        <div id="logo">
+            <img src="./Res/Logo.jpg">
+        </div>
+        <span class="fs-5">Iván Pérez Rosa</span>
+      </a>
+
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="index.html" class="nav-link text-secondary" aria-current="page">Inicio</a></li>
+        <li class="nav-item"><a href="gallery.html" class="nav-link">Proyectos</a></li>
+        <li class="nav-item"><a href="contactme.html" class="nav-link">Contactame</a></li>
+        <li class="nav-item"><a href="aboutme.html" class="nav-link">Sobre Mi</a></li>
+        
+      </ul>
+    </nav>
+</div><br><br>
+
+<main class="container flex-grow-1 d-flex justify-content-center align-items-center" id="indexmain">
+    <div class="card">
+        <div class="card-body text-center">
+            <h2 class="card-title">Presentación</h2>
+            <h5 class="card-subtitle mb-4">Iván Pérez Rosa</h5>
+            <img class="card-img-left mb-3" src="./Res/Foto_Perfil.jpg" alt="Foto de Perfil">
+        </div>
+    </div>
+</main>
+
+<div class="row mb-2" id="tarjetas">
+    <div class="col-md-6" id="idiomas">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <h3><strong class="d-inline-block mb-2 text-primary-emphasis">Idiomas</strong></h3>
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                  <th scope="col">Idioma</th>
+                  <th scope="col">Nivel</th>
+              </tr>
+          </thead>
+          <tbody>
+            <tr>
+                <td>Español</td>
+                <td>Nativo</td>
+            </tr>
+            <tr>
+                <td>Inglés</td>
+                <td>Medio-Alto (Título B2)</td>
+            </tr>
+            <tr>
+                <td>Francés</td>
+                <td>Básico</td>
+            </tr>
+        </tbody>
+          </table>
+          
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          <img class="bd-placeholder-img" width="350" height="310" src="./Res/idiomas.jpg">
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6" id="lenguajes">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+            <h3><strong class="d-inline-block mb-2 text-success-emphasis">Lenguajes y Herramientas</strong></h3>
+            <h5 class="mb-0">Lenguajes y Herramientas que Actualmente Uso</h5><br>
+          <strong><p class="card-text mb-auto">HTML 5 <br> CSS <br> JavaScript <br> Java <br> MySQL <br> Spring</p></strong>
+          <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+            <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+          </a>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+            <img class="bd-placeholder-img" width="300" height="310" src="./Res/Lenguajes.png"></div>
+      </div>
+    </div>
+    
+  </div>
+
+<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
+    <div id="footer_logo">
+        <img src="./Res/Logo.jpg">
+    </div>
+    <span class="fs-5">Iván Pérez Rosa</span>
+
+    <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+        
+    </a>
+
+    <ul class="nav nav-pills">
+        <li class="nav-item"><a href="index.html" class="nav-link text-secondary" aria-current="page">Inicio</a></li>
+        <li class="nav-item"><a href="gallery.html" class="nav-link">Proyectos</a></li>
+        <li class="nav-item"><a href="contactme.html" class="nav-link">Contactame</a></li>
+        <li class="nav-item"><a href="aboutme.html" class="nav-link">Sobre Mi</a></li>
+    </ul>
+</footer>
+</div>
+</body>
+</html>
