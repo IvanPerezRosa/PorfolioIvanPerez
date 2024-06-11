@@ -16,6 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
     };
 
     confirmSendBtn.addEventListener('click', () => {
+        
         // Verificar si el formulario es válido
         if (!contactForm.checkValidity()) {
             contactForm.classList.add('was-validated');
@@ -23,8 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
             return;
         }
 
-        // Aquí iría la lógica para comprobar si el envío es correcto
-        const envioCorrecto = true; // Cambia esto según tu lógica de verificación
+        const envioCorrecto = true; 
 
         if (envioCorrecto) {
             appendAlert('¡Envío realizado correctamente!', 'success');
