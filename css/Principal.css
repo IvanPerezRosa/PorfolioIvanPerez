@@ -149,3 +149,7 @@ table{
 #formulario{
     width: 340px;
 }
+
+#presentacion_sobre_mi{
+    text-align: justify;
+}
