@@ -37,3 +37,12 @@ document.addEventListener("DOMContentLoaded", () => {
         modal.hide();
     });
 });
+
+
+
+function confirmDescarga(event) {
+    event.preventDefault(); 
+    if (confirm("¿Estás seguro de que deseas descargar el CV?")) {
+      window.location.href = event.currentTarget.href;
+    }
+  }
